@@ -1,0 +1,27 @@
+.emby-link {
+  display: flex;
+  color: var(--yt-spec-text-primary, #fff);
+  font-family: Roboto, Arial, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.emby-link:hover { background: var(--yt-spec-badge-chip-background, rgba(255,255,255,.1)); }
+.emby-link svg { color: #52b54b; flex: none; }
+.emby-mini {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px 0 14px;
+  font-size: 10px;
+}
+.emby-mini span { margin-top: 6px; }
+.emby-full {
+  align-items: center;
+  gap: 24px;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 14px;
+}

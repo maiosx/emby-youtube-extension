@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Emby Sidebar for YouTube",
+  "version": "1.0.0",
+  "description": "Adds an Emby button to YouTube's sidebar that opens your Emby server.",
+  "permissions": ["storage"],
+  "background": { "service_worker": "background.js" },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
