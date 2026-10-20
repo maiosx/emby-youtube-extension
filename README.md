@@ -1,4 +1,4 @@
-This chrome extension adds an Emby button to YouTube’s sidebar, in both the slim icon bar and the expanded menu, and clicking it opens your server in a new tab.
+This chrome extension adds an Emby server button to YouTube’s sidebar, in both the slim icon bar and the expanded menu, and clicking it opens your server in a new tab.
 
 Install (desktop Chrome):
 
